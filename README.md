@@ -17,6 +17,9 @@ Extract TrifleJS.exe and Noesis.Javascript.dll files and locate them in the proj
   pip install img2pdf
 ```
 
+## Input
+Put your HTML files in the input folder
+
 
 ## Run
  In the project directory run:
