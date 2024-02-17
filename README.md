@@ -25,7 +25,7 @@ Put your HTML files in the input folder
  In the project directory run:
  
  ```bash
- python PNG-to-PDF.py input
+ python HTML-to-PDF.py input
  ```
 
 

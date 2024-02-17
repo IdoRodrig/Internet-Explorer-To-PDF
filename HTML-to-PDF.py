@@ -8,7 +8,7 @@ def execute_script(script_path, input_folder):
     command = [triflejs_path, script_path, input_folder]
     subprocess.run(command, shell=True)
 
-# Convert PNG files to PDF using ImageMagick
+# Convert PNG files to PDF using img2pdf
 def convert_to_pdf(input_folder):
     output_folder = os.path.join(input_folder.replace("input", "output"))
     for file in os.listdir(output_folder):
